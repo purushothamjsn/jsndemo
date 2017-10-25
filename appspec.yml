@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 files:
   - source: /
-    destination: /opt/codedeploy-agent/deployment-root/scripts
+    destination: /var/www/jsndemodeploy/scripts
 hooks:
   BeforeInstall:
     - location: scripts/install_dependencies.sh
