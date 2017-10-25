@@ -2,7 +2,11 @@ version: 0.0
 os: linux
 files:
   - source: /
-    destination: /var/www/jsndemodeploy/scripts
+    destination: /var/www
+permissions:
+  - object: /var/www
+    owner: "www-data"
+    group: "www-data"
 hooks:
   BeforeInstall:
     - location: scripts/install_dependencies.sh
