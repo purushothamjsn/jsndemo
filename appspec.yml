@@ -2,11 +2,7 @@ version: 0.0
 os: linux
 files:
   - source: /
-    destination: /var/www
-permissions:
-  - object: /var/www
-    owner: "www-data"
-    group: "www-data"
+    destination: /var/www/html/scripts
 hooks:
   BeforeInstall:
     - location: scripts/install_dependencies.sh
