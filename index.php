@@ -1,3 +1,3 @@
 <?php
-echo "Hi JSN TECHNOLOGIES! Time is ".date("Y-m-d H:i:s", time());
+echo "Hi JSN Technologie's! Time is ".date("Y-m-d H:i:s", time());
 ?>
